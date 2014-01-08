@@ -1,0 +1,304 @@
+.preload {
+display:none;
+}
+
+html, body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+a:link {
+text-decoration: underline;
+color: white;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:visited {
+color: white;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-size: 71pt;
+font-weight: 700;
+color: white;
+line-height: 0px;
+text-align: center;
+}
+
+h1.subtitle {
+font-family: 'Lato', sans-serif;
+font-size: 21pt;
+font-weight: 300;
+color: white;
+line-height: 0px;
+}
+
+h2.big {
+font-family: 'Bitter', serif;
+font-size: 18px;
+color: white;
+line-height: 25px;
+font-weight: 300;
+}
+
+h2.bigdark {
+font-family: 'Bitter', serif;
+font-size: 18px;
+color: #646464;
+line-height: 15px;
+font-weight: 300;
+}
+
+h2.bigdarkbold {
+font-family: 'Bitter', serif;
+font-size: 18px;
+color: #646464;
+line-height: 18px;
+font-weight: 700;
+}
+
+h2.menu {
+font-family: 'Bitter', serif;
+font-size: 12px;
+color: #a2a2a2;
+font-weight: 300;
+}
+
+#topmenucontainer {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+height: 25px;
+}
+
+#topmenutab {
+border-top: 25px solid white;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+height: 0px;
+width: 600px;
+margin: 0 auto;
+z-index: 3;
+position: relative;
+top: 0px;
+-webkit-filter: drop-shadow(0px 1px 5px #cdcdcd);
+filter: drop-shadow(0px 1px 5px #cdcdcd);
+}
+
+#topmenuline {
+position: absolute;
+height: 3px;
+background-color: white;
+width: 100%;
+z-index: 2;
+-webkit-filter: drop-shadow(0px 1px 5px #cdcdcd);
+filter: drop-shadow(0px 1px 5px #cdcdcd);
+}
+
+#topmenutop{
+position: absolute;
+top: -21px;
+left: 50px;
+z-index: 3;
+text-align: center;
+background-image: url('img/topup.png');
+background-repeat: no-repeat;
+width: 80px;
+}
+
+#topmenutop:hover {
+background-image: url('img/topdown.png');
+}
+
+#topmenuoverview {
+position: absolute;
+top: -21px;
+left: 190px;
+z-index: 3;
+text-align: center;
+background-image: url('img/overviewup.png');
+background-repeat: no-repeat;
+width: 80px;
+}
+
+#topmenuoverview:hover {
+background-image: url('img/overviewdown.png');
+}
+
+#topmenuabout {
+position: absolute;
+top: -21px;
+left: 330px;
+z-index: 3;
+text-align: center;
+background-image: url('img/aboutup.png');
+background-repeat: no-repeat;
+width: 80px;
+}
+
+#topmenuabout:hover {
+background-image: url('img/aboutdown.png');
+}
+
+#topmenucontact {
+position: absolute;
+top: -21px;
+left: 470px;
+z-index: 3;
+text-align: center;
+background-image: url('img/contactup.png');
+background-repeat: no-repeat;
+width: 80px;
+}
+
+#topmenucontact:hover {
+background-image: url('img/contactdown.png');
+}
+
+#introcontainer {
+position: absolute;
+top: 0px;
+width: 100%;
+height: 550px;
+background-color: #f66f1d;
+z-index: 0;
+background-image: url('img/hexpattern.png');
+background-repeat: repeat;
+}
+
+#introcontent{
+width: 600px;
+margin: 0 auto;
+height: 520px;
+padding-top: 30px;
+}
+
+#overviewcontainer {
+position: absolute;
+top: 550px;
+width: 100%;
+height: 440px;
+z-index: 0;
+}
+
+#overviewcontent{
+width: 650px;
+margin: 0 auto;
+margin-top: 0px;
+padding-top: 5px;
+z-index: 1;
+}
+
+#overviewhub {
+width: 256px;
+height: 228px;
+background-image: url('img/hubup.png');
+position: relative;
+top: 135px;
+left: -220px;
+}
+
+#overviewhub:hover {
+background-image: url('img/overviewhexdown.png');
+}
+
+#overviewhub:hover #overviewhubtext {
+display: block;
+}
+
+#overviewhubtext {
+position: relative;
+width: 256px;
+height:228px;
+top: 0px;
+left: 0px;
+padding-top: 50px;
+display: none;
+}
+
+#overviewcomp{
+width: 256px;
+height: 228px;
+background-image: url('img/compup.png');
+position: relative;
+top: -220px;
+left: 0px;
+}
+
+#overviewcomp:hover {
+background-image: url('img/overviewhexdown.png');
+}
+
+#overviewcomp:hover #overviewcomptext {
+display: block;
+}
+
+#overviewcomptext {
+position: relative;
+width: 256px;
+height:228px;
+top: 0px;
+left: 0px;
+padding-top: 40px;
+display: none;
+}
+
+#overviewuniversity {
+width: 256px;
+height: 228px;
+background-image: url('img/universityup.png');
+position: relative;
+top: -322px;
+left: 221px;
+}
+
+#overviewuniversity:hover {
+background-image: url('img/overviewhexdown.png');
+}
+
+#overviewuniversity:hover #overviewuniversitytext {
+display: block;
+}
+
+#overviewuniversitytext {
+position: relative;
+width: 256px;
+height:228px;
+top: 0px;
+left: 0px;
+padding-top: 40px;
+display: none;
+}
+
+#abouttab {
+border-bottom: 110px solid #646464;
+border-left: 63px solid transparent;
+border-right: 63px solid transparent;
+height: 0px;
+width: 125px;
+margin-top: -110px;
+}
+
+#aboutcontainer {
+position: absolute;
+top: 990px;
+width: 100%;
+height: 440px;
+z-index: 0;
+background-color: #646464;
+}
+
+#aboutcontent{
+width: 650px;
+margin: 0 auto;
+margin-top: 0px;
+padding-top: 5px;
+z-index: 1;
+text-align: center;
+}
